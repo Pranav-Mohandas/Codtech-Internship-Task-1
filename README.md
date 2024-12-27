@@ -120,7 +120,5 @@ void loop() {
 ```
 ## Simulation Video
 
-https://github.com/user-attachments/assets/84bd1ac5-722b-47e1-bc5d-0f85f1e5a30d
-
-
+https://github.com/user-attachments/assets/4739a987-cd07-4bdf-867d-1ab033d3a11f
 
