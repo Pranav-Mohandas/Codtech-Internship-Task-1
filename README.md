@@ -1,25 +1,25 @@
 
-# Name : Pranav Mohandas
-# Company : CODTECH IT SOLUTIONS
-# ID : CT08DS272
-# Domain : Embedded Systems
-# Duration : December 2024 to January 2025
-# Mentor : Muzammil Ahmed
+## Name : Pranav Mohandas
+## Company : CODTECH IT SOLUTIONS
+## ID : CT08DS272
+## Domain : Embedded Systems
+## Duration : December 2024 to January 2025
+## Mentor : Muzammil Ahmed
 ---
 
-## LED Blinking Using Arduino  
+### LED Blinking Using Arduino  
 
 This project demonstrates how to program an Arduino board to control multiple LEDs in a dynamic blinking sequence. The program utilizes loops and arrays to manage multiple LEDs, introducing intermediate-level embedded programming concepts and showcasing how to interface with hardware.  
 
 ---
 
-## Technology Used  
+### Technology Used  
 - **Arduino IDE**  
 - **Tinkercad** (for simulation and design of the circuit)  
 
 ---
 
-## Components Required  
+### Components Required  
 - Arduino Board (or simulation in Tinkercad)  
 - 9 LEDs  
 - 9 Resistors (420Ω or similar)  
@@ -28,7 +28,7 @@ This project demonstrates how to program an Arduino board to control multiple LE
 
 ---
 
-## Circuit Diagram  
+### Circuit Diagram  
 The circuit consists of 9 LEDs connected to digital pins on the Arduino board (Pins 5 to 13) through resistors. Each LED's cathode is connected to the ground pin (GND).  
 ![image](https://github.com/user-attachments/assets/3bb334d1-db41-4f6f-a244-22b8ee9fdafd)
 
@@ -36,7 +36,7 @@ The circuit consists of 9 LEDs connected to digital pins on the Arduino board (P
 
 ---
 
-## Features  
+### Features  
 - Controls 9 LEDs using dynamic patterns and sequences.  
 - Utilizes arrays and loops for efficient programming.  
 - Demonstrates intermediate-level microcontroller programming concepts.  
@@ -45,7 +45,7 @@ The circuit consists of 9 LEDs connected to digital pins on the Arduino board (P
 
 ---
 
-## Code  
+### Code  
 
 ```cpp
 int ledCount = 9; 
@@ -118,7 +118,7 @@ void loop() {
 
 }
 ```
-## Simulation Video
+### Simulation Video
 
 https://github.com/user-attachments/assets/4739a987-cd07-4bdf-867d-1ab033d3a11f
 
