@@ -41,7 +41,6 @@ The circuit consists of 9 LEDs connected to digital pins on the Arduino board (P
 - Utilizes arrays and loops for efficient programming.  
 - Demonstrates intermediate-level microcontroller programming concepts.  
 - Flexible code structure that allows easy customization of LED patterns and delays.  
-- Suitable for beginners and hobbyists to explore embedded systems and hardware interfacing.  
 
 ---
 
