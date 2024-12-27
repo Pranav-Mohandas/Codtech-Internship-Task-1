@@ -1,11 +1,13 @@
+
 # Name : Pranav Mohandas
 # Company : CODTECH IT SOLUTIONS
 # ID : CT08DS272
 # Domain : Embedded Systems
 # Duration : December 2024 to January 2025
 # Mentor : Muzammil Ahmed
+---
 
-# LED Blinking Using Arduino  
+## LED Blinking Using Arduino  
 
 This project demonstrates how to program an Arduino board to control multiple LEDs in a dynamic blinking sequence. The program utilizes loops and arrays to manage multiple LEDs, introducing intermediate-level embedded programming concepts and showcasing how to interface with hardware.  
 
@@ -28,6 +30,9 @@ This project demonstrates how to program an Arduino board to control multiple LE
 
 ## Circuit Diagram  
 The circuit consists of 9 LEDs connected to digital pins on the Arduino board (Pins 5 to 13) through resistors. Each LED's cathode is connected to the ground pin (GND).  
+![image](https://github.com/user-attachments/assets/3bb334d1-db41-4f6f-a244-22b8ee9fdafd)
+
+
 
 ---
 
@@ -41,7 +46,6 @@ The circuit consists of 9 LEDs connected to digital pins on the Arduino board (P
 ---
 
 ## Code  
-Below is the Arduino code for the project:  
 
 ```cpp
 int ledCount = 9; 
@@ -111,4 +115,12 @@ void loop() {
     digitalWrite(ledPins[thisLed], LOW); 
   } 
   delay(1000); 
+
 }
+```
+## Simulation Video
+
+https://github.com/user-attachments/assets/84bd1ac5-722b-47e1-bc5d-0f85f1e5a30d
+
+
+
